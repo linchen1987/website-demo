@@ -1,3 +1,11 @@
-name: Blocklet Page Demo
-title: Blocklet Page Demo
-description: This is Blocklet Page Demo, powered by Blocklet Page
+name: My Website
+title: My Website
+description: My Website, powered by Blocklet Page
+themeConfig:
+  colors:
+    primary: '#1DC1C7'
+    # secondary: '#1976d2'
+    # error: '#1DC1C7'
+    # warning: '#1DC1C7'
+    # info: '#1DC1C7'
+    # success: '#1DC1C7'
