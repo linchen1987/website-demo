@@ -14,8 +14,8 @@ author:
 repository:
   type: git
   url: git+https://github.com/blocklet/create-blocklet.git
-specVersion: 1.1.1
-version: 0.1.0
+specVersion: 1.2.7
+version: 1.0.0
 logo: logo.png
 files:
   - logo.png
@@ -24,25 +24,27 @@ interfaces:
   - type: web
     name: publicUrl
     path: /
-    prefix: "*"
+    prefix: '*'
     port: BLOCKLET_PORT
     protocol: http
-community: ""
-documentation: ""
-homepage: ""
-license: ""
+community: ''
+documentation: ''
+homepage: ''
+license: ''
 payment:
   price: []
   share: []
 timeout:
   start: 60
 requirements:
-  abtnode: ">=1.6.22"
-  os: "*"
-  cpu: "*"
+  abtnode: '>=1.6.22'
+  os: '*'
+  cpu: '*'
 scripts:
   dev: npm run start
 environments: []
-capabilities: {}
+capabilities:
+  clusterMode: false
+  component: true
 screenshots: []
 children: []
